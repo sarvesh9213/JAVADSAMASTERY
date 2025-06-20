@@ -1,20 +1,21 @@
-package ALLLOOPS ;
+package ALLLOOPSpt1;
 import java.util.Scanner;
 
-public class SUMOFDIGITS {
+public class COUNTDIGITS {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
 
-        int sum = 0;
+        int count = 0;
         int temp = num;
 
         while (temp != 0) {
-            sum += temp % 10;
             temp = temp / 10;
+            count++;
         }
 
-        System.out.println("Sum of digits: " + sum);
+        System.out.println("Number of digits: " + count);
     }
 }
+

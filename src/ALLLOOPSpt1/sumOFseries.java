@@ -1,4 +1,4 @@
-package ALLLOOPS;
+package ALLLOOPSpt1;
 import java.util.Scanner;
 
 public class sumOFseries {
