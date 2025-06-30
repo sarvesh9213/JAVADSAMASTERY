@@ -1,6 +1,6 @@
 package ARRAYS;
 
-}public class basicarrays {
+public class basicarrays {
     public static void main(String[] args) {
         // Integer array
         int[] numbers = {10, 20, 30, 40, 50};
