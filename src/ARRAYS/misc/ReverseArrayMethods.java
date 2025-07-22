@@ -19,7 +19,7 @@ public class ReverseArrayMethods {
         int j = arr.length - 1;
         while (i < j) {
             int temp = arr[i];
-            arr[i] = arr[j];
+            arr[i] = arr[j]; //use a swap function in here 3 lines ki jghaa
             arr[j] = temp;
             i++;
             j--;
