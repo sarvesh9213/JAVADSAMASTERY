@@ -1,20 +1,21 @@
-package ALLLOOPSpt1;
+package LETS_START_LOOPS.LOOPS_pt1_basics;
 import java.util.Scanner;
 
-public class SUMOFDIGITS {
+public class RerverseNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
 
-        int sum = 0;
+        int reverse = 0;
         int temp = num;
 
         while (temp != 0) {
-            sum += temp % 10;
+            int digit = temp % 10;
+            reverse = reverse * 10 + digit;
             temp = temp / 10;
         }
 
-        System.out.println("Sum of digits: " + sum);
+        System.out.println("Reversed number: " + reverse);
     }
 }

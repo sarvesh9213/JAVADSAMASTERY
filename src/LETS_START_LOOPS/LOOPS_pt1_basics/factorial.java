@@ -1,4 +1,4 @@
-package ALLLOOPSpt1;
+package LETS_START_LOOPS.LOOPS_pt1_basics;
 
 import java.util.Scanner;
 
