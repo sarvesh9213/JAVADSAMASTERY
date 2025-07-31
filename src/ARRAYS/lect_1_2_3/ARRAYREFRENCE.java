@@ -1,5 +1,4 @@
-package ARRAYS;
-import java.util.*;
+package ARRAYS.lect_1_2_3;
 
 public class ARRAYREFRENCE {
 

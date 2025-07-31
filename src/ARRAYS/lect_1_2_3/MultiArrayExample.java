@@ -1,4 +1,4 @@
-package ARRAYS;
+package ARRAYS.lect_1_2_3;
 public class MultiArrayExample {
 
     public static void main(String[] args) {

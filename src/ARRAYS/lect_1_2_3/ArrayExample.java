@@ -1,4 +1,4 @@
-package ARRAYS;
+package ARRAYS.lect_1_2_3;
 class ArrayExample {
     void sumOfArray() {
         int[] arr = {4, 4, 5, 6, 1};

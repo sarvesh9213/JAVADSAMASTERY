@@ -1,4 +1,4 @@
-package ARRAYS;
+package ARRAYS.lect_1_2_3;
 import java.util.*;  // Importing Arrays class and Scanner
 
 public class smallestAndLargestElement {

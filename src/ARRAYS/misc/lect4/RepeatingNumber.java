@@ -1,4 +1,4 @@
-package ARRAYS.misc;
+package ARRAYS.misc.lect4;
 public class RepeatingNumber {
 
     // Function to find the first repeating number

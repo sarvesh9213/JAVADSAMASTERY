@@ -1,4 +1,4 @@
-package ARRAYS;
+package ARRAYS.lect_1_2_3;
 public class CountOccurrences {
 
     // Function to count how many times x occurs in the array

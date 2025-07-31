@@ -1,4 +1,4 @@
-package ARRAYS;
+package ARRAYS.lect_1_2_3;
 public class MaxArrayValue {
     public static void main(String[] args) {
         int[] arr = {5, 2, 1, 6, 3};

@@ -1,4 +1,4 @@
-package ARRAYS.misc;
+package ARRAYS.misc.lect4;
 public class ReverseArrayMethods {
 
     // Method 1: In-place reverse using for loop

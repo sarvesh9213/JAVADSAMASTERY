@@ -1,4 +1,4 @@
-package ARRAYS;
+package ARRAYS.lect_1_2_3;
 public class LastOccurrence {
 
     // Function to find the last index where x occurs in array

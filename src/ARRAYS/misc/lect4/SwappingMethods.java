@@ -1,4 +1,4 @@
-package ARRAYS.misc;
+package ARRAYS.misc.lect4;
 public class SwappingMethods {
 
     // Method 1: Using a temporary variable

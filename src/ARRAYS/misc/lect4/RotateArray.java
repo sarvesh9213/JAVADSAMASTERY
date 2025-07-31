@@ -1,4 +1,4 @@
-package ARRAYS.misc;
+package ARRAYS.misc.lect4;
 import java.util.Scanner;
 
 public class RotateArray {
