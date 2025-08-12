@@ -24,8 +24,8 @@ public class SortZeroOne {
 
         // Print the sorted array
         System.out.print("Sorted: ");
-        for (int i = 0; i < n; i++) {
-            System.out.print(arr[i] + " ");
+        for (int j : arr) {
+            System.out.print(j + " ");
         }
     }
 }
