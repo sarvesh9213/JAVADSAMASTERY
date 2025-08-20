@@ -1,4 +1,13 @@
+package ARRAYS.Lect_5;
+
 public class CLASSIC_TWO_POINTER {
+
+    // helper function to swap
+    static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
 
     static void sortZeroesAndOneInPlace(int[] arr) {
         int n = arr.length;
@@ -20,13 +29,6 @@ public class CLASSIC_TWO_POINTER {
                 right--;
             }
         }
-    }
-
-    // helper function to swap
-    static void swap(int[] arr, int i, int j) {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
     }
 
     // test the function
