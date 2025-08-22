@@ -1,6 +1,6 @@
 package ARRAYS.Lect_5;
 
-public class CLASSIC_TWO_POINTER {
+public class Q1BCLASSIC_TWO_POINTER {
 
     // helper function to swap
     static void swap(int[] arr, int i, int j) {

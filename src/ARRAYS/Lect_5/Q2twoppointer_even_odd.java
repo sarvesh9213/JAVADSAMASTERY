@@ -1,5 +1,5 @@
 package ARRAYS.Lect_5;
-public class twoppointer_even_odd {
+public class Q2twoppointer_even_odd {
 
     static void sortArrayByParity(int[] arr) {
         int n = arr.length;
