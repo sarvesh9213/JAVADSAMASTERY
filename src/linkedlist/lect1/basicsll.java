@@ -30,5 +30,18 @@ public class basicsll {
         System.out.println(a.next.data);
         System.out.println(a.next.next.data);
         System.out.println(a.next.next.next.data);
+        System.out.println(a.next.next.next.next.data);
+        Node temp = a ;
+        while (temp!=null){
+            System.out.print(temp.data+"   ");
+            temp = temp.next ;
+        }
     }
 }
+//        5
+//        3
+//        9
+//        58
+//        16
+//        5   3   9   58   16
+//Process finished with exit code 0
