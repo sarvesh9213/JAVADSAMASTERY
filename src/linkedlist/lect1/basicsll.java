@@ -25,5 +25,10 @@ public class basicsll {
         c.next = d;
         d.next = e;
 
+        // how to display the code flooish method
+        System.out.println(a.data);
+        System.out.println(a.next.data);
+        System.out.println(a.next.next.data);
+        System.out.println(a.next.next.next.data);
     }
 }
