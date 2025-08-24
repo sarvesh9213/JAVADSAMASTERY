@@ -1,6 +1,13 @@
 package linkedlist.lect1;
 
 public class basicsll {
+    public static void display (Node head){
+        Node temp = head ;
+        while (temp!=null){
+            System.out.print(temp.data+"   ");
+            temp = temp.next ;
+        }
+    }
     // Static inner class Node
     public static class Node {
         int data;     // stores the actual value
@@ -15,7 +22,7 @@ public class basicsll {
     public static void main(String[] args) {
         Node a = new Node(5);
         Node b = new Node(3);
-        Node c = new Node(9);
+        Node c = new Node (59);
         Node d = new Node(58);
         Node e = new Node(16);
 
@@ -31,17 +38,14 @@ public class basicsll {
         System.out.println(a.next.next.data);
         System.out.println(a.next.next.next.data);
         System.out.println(a.next.next.next.next.data);
-        Node temp = a ;
-        while (temp!=null){
-            System.out.print(temp.data+"   ");
-            temp = temp.next ;
-        }
+        display(a); // node head de diya that a
+
     }
 }
-//        5
-//        3
-//        9
-//        58
-//        16
-//        5   3   9   58   16
+//5
+//3
+//9
+//58
+//16
+//5   3   9   58   16
 //Process finished with exit code 0
