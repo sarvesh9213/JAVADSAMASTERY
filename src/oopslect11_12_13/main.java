@@ -6,8 +6,9 @@ class student {
 }
 public class main {
     public static void main(String[] args) {
-    student Sarvesh = new student();// yaha per hum apna ek object bena rhe hai
+    student Sarvesh = new student();// yaha per hum apna ek object bena rhe hai //instantiating khete hai isse
         Sarvesh.rollNo = 9 ;
+//        rollNo = 9 ; this will give an error because it will not even work
         Sarvesh.studentName = "pandeyji" ;
         System.out.println(Sarvesh.age); // yaha per object ke method/attribute ko access ker rhe hai
         System.out.println(Sarvesh.rollNo);
