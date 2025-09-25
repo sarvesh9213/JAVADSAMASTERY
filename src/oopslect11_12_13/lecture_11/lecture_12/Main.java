@@ -21,8 +21,8 @@ public class Main {
         System.out.println("Sum of input numbers is:");
 
         // 2nd usage: call the method
-        int ans = obj.add(x, y);
+        int answer = obj.add(x, y);
 
-        System.out.println(ans);
+        System.out.println(answer);
     }
 }
