@@ -1,6 +1,7 @@
 package oopslect11_12_13.lecture_11.lecture_12;
-public class maths {
+public class mathsfloorciel {
     public static void main(String[] args) {
+        Algebra object1 = new Algebra();
 
         // Square root
         System.out.println("Square root of 16: " + Math.sqrt(16));
@@ -12,5 +13,6 @@ public class maths {
         // Ceil values
         System.out.println("Ceil of 5.3: " + Math.ceil(5.3));
         System.out.println("Ceil of 5.8: " + Math.ceil(5.8));
+        return;
     }
 }
