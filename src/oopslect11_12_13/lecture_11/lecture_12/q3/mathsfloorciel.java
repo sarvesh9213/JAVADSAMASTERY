@@ -1,4 +1,7 @@
-package oopslect11_12_13.lecture_11.lecture_12;
+package oopslect11_12_13.lecture_11.lecture_12.q3;
+
+import oopslect11_12_13.lecture_11.lecture_12.q2.Algebra;
+
 public class mathsfloorciel {
     public static void main(String[] args) {
         Algebra object1 = new Algebra();

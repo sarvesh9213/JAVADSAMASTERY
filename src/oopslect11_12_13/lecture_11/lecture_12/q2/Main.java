@@ -1,4 +1,4 @@
-package oopslect11_12_13.lecture_11.lecture_12;
+package oopslect11_12_13.lecture_11.lecture_12.q2;
 import java.util.Scanner;
 
 class Algebra {
