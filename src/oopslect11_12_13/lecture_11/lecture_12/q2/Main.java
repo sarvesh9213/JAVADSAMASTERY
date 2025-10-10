@@ -2,6 +2,9 @@ package oopslect11_12_13.lecture_11.lecture_12.q2;
 import java.util.Scanner;
 
 class Algebra {
+    Algebra(){
+        System.out.println("constructor of algebra class");
+    }
     // 1st usage: define a method
     int add(int a, int b) {
         int ans = a + b;
