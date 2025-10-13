@@ -8,7 +8,7 @@ public class selectionsort {
         for (i = 0; i < n - 1; i++) {          // outer loop (har step pe ek element fix hoga)
             min = i;                           // assume current index is min
 
-            for (j = i; j < n - 1; j++) {      // inner loop (aage ke elements se compare)
+            for (j = i; j < n-1 ; j++) {      // inner loop (aage ke elements se compare)
                 if (arr[j + 1] < arr[min]) {   // agar chhota element mil gaya
                     min = j + 1;               // uska index store karlo
                 }
